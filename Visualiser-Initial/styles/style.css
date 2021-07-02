@@ -24,6 +24,7 @@ header
 }
 #timeline li 
 {
+	position: relative;;
    text-align: center;
    padding: 25px;
 }
