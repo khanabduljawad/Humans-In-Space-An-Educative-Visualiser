@@ -3,6 +3,7 @@ var events=data;
 function list(body){
     return`
     <li>
+         </div>
          <!-- begin timeline-time -->
          <div class="timeline-time">
             <span class="time">${body.Date}</span>
@@ -22,6 +23,9 @@ function list(body){
                   ${body.Event}
                </p>
           </div>
+         <p class="m-t-20">
+             <img src="images/galaxy.jpg" alt="" width=50% height=50%>
+          </p>
           <div class="timeline-footer">
             <p> 
               ${body.Summary}
