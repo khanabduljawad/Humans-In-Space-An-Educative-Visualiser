@@ -24,7 +24,7 @@ function list(body){
                </p>
           </div>
          <p class="m-t-20">
-             <img src="images/galaxy.jpg" alt="" width=50% height=50%>
+             <img src='${body.Imglink}' alt="" width=50% height=50%>
           </p>
           <div class="timeline-footer">
             <p> 
