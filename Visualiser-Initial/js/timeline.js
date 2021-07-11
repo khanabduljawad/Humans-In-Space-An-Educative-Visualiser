@@ -18,9 +18,9 @@ function list(body){
          <div class="timeline-body">
          <div class="timeline-content">
                <p>
-                  <b>Researcher: </b> <span>${body.Researcher}</span> <br>
-                  <b>Country: </b> <span>${body.Country}</span><br>
-                  ${body.Event}
+                  <b><span>${body.Name}</span></b><br> 
+                  <b><span>${body.Country}</span></b><br>
+                  <b><span>${body.Event}</span></b><br>
                </p>
           </div>
          <p class="m-t-20">
