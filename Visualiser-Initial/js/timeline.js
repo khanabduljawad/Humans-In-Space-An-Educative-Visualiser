@@ -18,13 +18,13 @@ function list(body){
          <div class="timeline-body">
          <div class="timeline-content">
                <p>
-                  <b><span>${body.Name}</span></b><br> 
-                  <b><span>${body.Country}</span></b><br>
-                  <b><span>${body.Event}</span></b><br>
+                  <b>Researcher or Mission Name: </b> <span>${body.Name}</span> <br>
+                  <b>Country: </b> <span>${body.Country}</span><br>
+                  ${body.Event}
                </p>
           </div>
          <p class="m-t-20">
-             <img src='${body.Imglink}' alt="" width=50% height=50%>
+            <center> <img src='${body.Imglink}' alt="" width=50% height=50%></center>
           </p>
           <div class="timeline-footer">
             <p> 

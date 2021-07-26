@@ -1,4 +1,4 @@
-﻿const data=[{
+﻿let data=[{
         "Date": "March 1960",
         "Event": "First solar probe.",
         "Country": " USA (NASA)",
